@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pb;
+
+import "google/protobuf/empty.proto";
+
+message User {
+  uint64 id = 1;
+  string username = 2;
+  string password = 3;
+}
+
+service AuthService {
+  rpc Login(User) returns (google.protobuf.Empty);
+}
