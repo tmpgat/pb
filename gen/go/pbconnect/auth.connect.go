@@ -8,8 +8,8 @@ import (
 	context "context"
 	errors "errors"
 	connect_go "github.com/bufbuild/connect-go"
+	pb "github.com/tmpgat/pb"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	pb "my/pb"
 	http "net/http"
 	strings "strings"
 )

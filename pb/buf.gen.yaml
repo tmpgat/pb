@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: my/pb
+    default: github.com/tmpgat/pb
 plugins:
   # server (go)
   - plugin: buf.build/protocolbuffers/go
